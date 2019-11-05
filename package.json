@@ -1,0 +1,35 @@
+{
+  "name": "webpackproject",
+  "version": "1.0.0",
+  "description": "a simple website using webpack tutorial",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roootze/webpackproject.git"
+  },
+  "keywords": [],
+  "author": "Ashkan Ashtiani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roootze/webpackproject/issues"
+  },
+  "homepage": "https://github.com/roootze/webpackproject#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.7.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.23.3",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
