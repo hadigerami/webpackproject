@@ -41,7 +41,7 @@ module.exports = {
             // It gets all transformed CSS and extracts it into separate
             // single bundled file
             loader: MiniCssExtractPlugin.loader
-          }, 
+          },
           {
             // This loader resolves url() and @imports inside CSS
             loader: "css-loader",
@@ -55,6 +55,17 @@ module.exports = {
             loader: "sass-loader",
             options: {
               implementation: require("sass")
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              outputPath: 'images'
             }
           }
         ]
